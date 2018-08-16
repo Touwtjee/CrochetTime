@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Raleway:400,700');
+
+/* Universal styles*/
+  *{
+    margin:0;
+    padding:0;
+  }
+
+  body{
+    color: darkgray;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  h1{
+    padding:0;
+    margin: 0;
+    color: white;
+  }
+
+  h2{
+    padding: 0 10px;
+  }
+
+  span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    color: black;
+    font-size: 26px;
+   }
+
+   footer{
+     background-color: pink;
+     padding: 100px 0;
+   }
+
+   footer h2{
+     color: white;
+   }
+  .narrative{
+    padding: 10px;
+    text-align: justify;
+  }
+
+  .content{
+    display:flex;
+    justify-content: center;
+    padding-top: 80px;
+  }
+
+  .column{
+    margin-right: 32px;
+  }
+
+  .column.large {
+    width: 630px;
+  }
+
+  .column.medium {
+    width: 300px;
+  }
+
+  .column.small {
+    width: 240px;
+  }
+
+  .story{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-between;
+  }
+
+/* Header styles*/
+
+  header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: pink;
+    position: fixed;
+    z-index: 10;
+  }
+
+  .logo, .menu{
+    padding: 8px 30px;
+  }
+
+  header a{
+    color:white;
+    text-decoration: none;
+  }
+
+  .menu ul{
+    display:flex;
+    list-style-type: none;
+    flex-wrap:nowrap;
+
+  }
+
+  .menu ul li {
+    padding: 0 10px;
+    border-right: 1px solid white;
+  }
+
+  .menu ul li:last-of-type{
+    border-right:none;
+  }
+
+/* Column large*/
+
+.main-story{
+}
+
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+
+}
+
+.image-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.main-story .image-content{
+  background-image: url(https://haakmaarraak.s3.amazonaws.com/uploads/2018/08/flower_shower_3_square_webres.jpg);
+  width: 630px;
+  text-align: left;
+  justify-content: flex-start;
+
+}
+
+.main-story .image-content span{
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+.image-content.flowers{
+  background-image: url(https://haakmaarraak.s3.amazonaws.com/uploads/2018/08/flower_shower_1_webres.jpg);
+}
+
+.image-content.whirlette{
+  background-image: url(https://haakmaarraak.s3.amazonaws.com/uploads/2018/08/flower_shower_square.jpg);
+}
+
+
+
+
+/* Column medium*/
+.image-content.zoom{
+  background-image: url(https://haakmaarraak.s3.amazonaws.com/uploads/2018/08/flower_shower_5_webres.jpg);
+  justify-content: flex-start;
+}
+
+/* Column small*/
+.image-content.whirl{
+  background-image: url(https://s.s-bol.com/imgbase0/imagebase3/large/FC/2/2/1/7/9200000077277122.jpg);
+  background-size: contain;
+
+}
+
+.whirl-tastes h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.whirl-tastes ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+.whirl-tastes ul li{
+  padding: 20px;
+  border-bottom: 1px dashed darkgray;
+
+}
+
+.whirl-tastes ul li:last-of-type{
+  border-bottom: none;
+}
+
+/* footer */
+
+.info{
+  display: flex;
+  justify-content: center;
+}
